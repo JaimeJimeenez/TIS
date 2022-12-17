@@ -1,0 +1,283 @@
+.letraBlanca {
+  color: white;
+}
+
+.textoCentrado {
+  text-align: center;
+}
+
+a, a:hover, .tituloPrefieres {
+  color: black;
+}
+
+.fondoNegro {
+  background-color: black;
+}
+
+.letraGris {
+  color: gray;
+}
+
+input[type='checkbox'], input[type='radio'] {
+  display: none;
+}
+
+.izquierda {
+  float:left;
+}
+
+.derecha {
+  float: right;
+}
+
+.derecha {
+  float:right;
+}
+
+.fondoInicio {
+  background: url("../img/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(122, 122, 122);
+}
+
+.tituloInicio {
+  margin-top: 12em;
+}
+
+.columnaJugar {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.encabezadoPreguntas {
+  justify-content: center;
+  height: 6em;
+}
+
+.textoEncabezado {
+  margin-top: 1em;
+}
+
+.tituloRRSS {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+
+.filaRRSS {
+  padding-top: 3em;
+  margin: auto;
+  width: 50%;
+}
+
+.columnaRRSS, .espacioFinal {
+  margin-bottom: 2em;
+}
+
+.imagenRRSS {
+  width: 5em;
+}
+
+.filaBoton {
+  margin-top: 2em;
+}
+
+.columnaBoton {
+  border: 1px solid gainsboro;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+
+.encabezadoPreguntasCol {
+  padding: 0;
+  width: 3em;
+}
+
+.numPregunta {
+  margin-top: 0.8em;
+}
+
+.tituloPrefieres {
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.filaOpciones {
+  width: 60%;
+  margin: auto;
+}
+
+.opcion {
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type='checkbox']:checked+label img, input[type='radio']:checked+div {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px #333;
+}
+
+.tituloPerfil {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+.filaPerfil {
+  background-color: rgb(247, 247, 247);
+  height: 20em;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.imagenPerfil {
+  align-items: center;
+  margin: auto;
+  display: block;
+}
+
+.imagenNomofobo {
+  width: 40%;
+}
+
+.imagenMonja, .imagenSinMas, .imagenHippieModerno {
+  width: 35%;
+}
+
+.columnaInfo, .columnaPerfiles {
+  border: 1px solid gainsboro;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+
+.encabezadoExplicacion {
+  justify-content: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.separacion {
+  margin-top: 2em;
+}
+
+.filaPerfiles {
+  justify-content: center;
+  margin-top: 4em;
+}
+
+.columnaImagenPerfil {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.tituloPerfiles {
+  margin-bottom: 1em;
+}
+
+.imgMonja {
+  width: 60%;
+}
+
+.imgSinMas {
+  width: 50%;
+}
+
+.filaInfo {
+  height: 20em;
+}
+
+.tituloInfo {
+  margin-top: 3em;
+}
+
+.preguntasInfo, .textoInfo {
+  margin-top: 2em;
+}
+
+.azul {
+  color: rgb(0, 140, 255);
+}
+
+.espiral {
+  justify-content: center;
+}
+
+.imgEspiral {
+  width: 10em;
+}
+
+.pasosHooked {
+  margin-top: 3em;
+}
+
+.disparador {
+  padding-top: 3em;
+}
+
+.inversion {
+  padding-top: 5em;
+}
+
+.accion, .recompensa {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.rTipos {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.imgTribu, .imgYo {
+  width: 4.5em;
+  margin-right: 5em;
+}
+
+.imgCazador {
+  width: 4.5em;
+  margin-left: 5em;
+}
+
+.fondoEjemplo {
+  background-color: rgb(218, 194, 189);
+}
+
+.separacionEjemplo {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.imgEjemploDisparador {
+  margin-top: 1em;
+  width: 50%;
+}
+
+.imgEjemploAccion {
+  margin-top: 1em;
+  width: 30%;
+}
+
+.imgEjemploRecompensa {
+  margin-top: 2em;
+  width: 30%;
+}
+
+.imgEjemploInversion {
+  margin-top: 1em;
+  width: 20%;
+}
+
+.ejemploTexto {
+  margin-top: 3.5em;
+}
+
+.fraseFinal {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}

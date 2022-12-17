@@ -1,0 +1,27 @@
+{
+  "name": "tis",
+  "version": "1.0.0",
+  "description": "Proyecto TIS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ucm",
+    "fdi",
+    "elp",
+    "tis"
+  ],
+  "author": "Beatriz, Jaime y Francisco",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  }
+}
